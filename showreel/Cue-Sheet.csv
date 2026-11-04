@@ -1,0 +1,37 @@
+scene,phrase,start_seconds,audio_end_seconds,text
+1,1,0.667,7.358,"A room full of equipment. A day full of possibilities! Let's organize the details, and see the laboratory more clearly."
+1,2,7.6,14.407,"Meet Lab Tracker! Keep maintenance in view, with equipment and work records together in one focused, practical workspace."
+1,3,14.633,21.704,"Ready to move forward? Connect the assets, the spaces, and the people behind the work. That's where clearer administration begins."
+2,1,23.333,31.809,"Here's the big picture. Equipment has its own space, with identification, laboratory assignment, and status presented together in clear rows."
+2,2,32.033,39.083,Need to review a repair? Maintenance sits right in the navigation. Find the records that describe the issue and its context.
+2,3,39.333,47.759,"Laboratories, categories, and accounts complete the workspace. The main areas of daily administration share a consistent place to get things done."
+3,1,49.4,55.808,"Start with the asset tag. Every item has an identity you can recognize, giving you a practical place to begin."
+3,2,56.033,62.761,"Then check the category. Item details and shared labels help describe what you're looking at, in one easy-to-scan row."
+3,3,63.0,69.937,See the laboratory assignment alongside its status. Review the equipment in the context of the physical space where it belongs.
+4,1,71.567,78.336,"Let's add the details! Brand and model make the equipment record more useful, helping distinguish one item from the next."
+4,2,78.567,85.801,"Capture the serial number. Alongside the asset tag, it adds another point of identification beyond a general item description."
+4,3,86.067,93.547,"Record the date acquired. Add a category, a laboratory, and useful notes. A little context now makes a stronger record later."
+5,1,95.167,102.942,"Looking for something specific? Start with search. The equipment screen provides controls for tags, brands, models, and serial numbers."
+5,2,103.167,110.034,"Choose your filters! Narrow the view by laboratory, category, or status, and focus on the inventory you want to review."
+5,3,110.3,117.412,"Review the results, open the available item actions, or reset for a wider look. Your collection, with a more focused view."
+6,1,119.033,126.489,Bring the issue into focus. Maintenance records connect a reported problem to the equipment it concerns. Keep the context together.
+6,2,126.733,133.89,"Check the status! Open work appears alongside the maintenance type and issue description, giving follow-up tasks a visible place."
+6,3,134.133,142.151,"Review the reported date, completion information, and cost. Together, those details make the maintenance entry more useful at the next review."
+7,1,143.767,150.719,"Report the issue. Choose the equipment, describe the task, and capture when it was reported. Start with the details that matter."
+7,2,150.967,157.891,"Record the work! Choose a type and status. Completion information, cost, and technician notes give you room for more context."
+7,3,158.133,165.585,"Keep that context close. An item-linked maintenance record gives practical details a clear home, ready for the next follow-up."
+8,1,167.2,174.53,"Give every laboratory a name. Make each space identifiable, with its details alongside the rest of your equipment management workspace."
+8,2,174.767,181.586,"Add the location. Connect the record to a physical space, and describe where that laboratory belongs within the organization."
+8,3,181.833,189.646,"Review the equipment count shown for each laboratory. Name, location, and assigned items bring your spaces and inventory together."
+9,1,191.267,197.617,"Monitors have their own category. A familiar part of the laboratory, with a shared label that makes the structure visible."
+9,2,197.867,204.146,"Motherboards have their place, too. Equipment counts appear beside the names, helping describe how the collection is grouped."
+9,3,204.367,212.732,"Keyboards and mice complete the picture here. Consistent categories give equipment a common language, alongside the laboratories that give it a place."
+10,1,214.367,221.319,"People keep the records moving! The accounts screen presents identity and username together, with a clear row for each user."
+10,2,221.567,228.967,Review the role. The same straightforward table format keeps the experience consistent as you move between areas of the workspace.
+10,3,229.2,237.376,"Check account status and last login information, with available actions alongside. The people behind the work have an organized place, too."
+11,1,239.0,247.426,"Identify. Start with equipment and its useful details. Asset tags, models, and serial numbers give the collection a practical structure."
+11,2,247.667,256.026,Organize. Connect items to laboratories and categories. Those shared labels and assignments make the inventory easier to describe and review.
+11,3,256.267,264.043,"Maintain. Bring issues and work details back to the equipment. Three connected steps, and a clearer rhythm for everyday administration."
+12,1,265.667,272.937,"Know your equipment! From an asset's identity to the laboratory where it belongs, keep the important details together in one workspace."
+12,2,273.167,282.087,"Keep maintenance moving. Record the issue, capture the context, and make the practical details ready for review. Build clarity through consistent records."
+12,3,282.333,291.458,"Choose clarity! Equipment, spaces, maintenance, and people, brought together. That's Lab Tracker. A more organized way to keep your laboratory moving forward!"

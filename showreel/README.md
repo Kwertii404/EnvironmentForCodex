@@ -1,11 +1,16 @@
-# LABTRACKER showreel
+# LABTRACKER showreel — synchronized revision
 
-A 4 minute 48 second product film featuring the real LABTRACKER interface from the supplied screen recording.
+A 4:52 product film using the real LABTRACKER interface, exported at 1920 × 1080 and 30 fps.
 
-- [Watch or download the MP4](LABTRACKER-Showreel.mp4) — 1920 × 1080, 30 fps, H.264 video and AAC audio.
-- [Download the editable Remotion project](LABTRACKER-Remotion-Project.zip) — source, captured UI assets, generated narration, original music, and reproduction instructions.
+- [Watch or download the MP4](LABTRACKER-Showreel.mp4).
+- [Download the editable Remotion project](LABTRACKER-Remotion-Project.zip).
 - [View the poster](LABTRACKER-Poster.png).
+- [Read the narration cue sheet](Cue-Sheet.csv).
 
-Narration uses Kokoro ONNX v1.0 with the `af_heart` voice. The instrumental soundtrack is original synthesized music, ducked beneath the narration. The final file contains 8,640 video frames and a 288-second soundtrack; full-file decoding passed.
+## Revised audio and pacing
 
-Unzip the project, run `npm ci`, and run `npm run studio` to edit. See the archive's README for rendering and audio mastering instructions. The Kokoro model weights are not bundled; the generated narration is included.
+The voiceover uses Kokoro ONNX v1.0 with a blend of `af_heart` and `af_bella`, punchier copy, varied phrase delivery rates, and a small pacing adjustment without pitch shifting.
+
+All 12 scene durations and 36 feature beats follow measured narration audio, replacing the original fixed 24-second chapters. The new original 108 BPM instrumental adds electric-piano chords, melodic answers, bass, pads, percussion, breakdowns, and scene-aligned transition swells. Music ducks beneath speech. The final audio master measures −16 LUFS with a −1.8 dBFS true peak.
+
+The project archive contains the Remotion composition, UI assets, narration clips, original score, timing data, cue sheet, and reproduction scripts. The picture reuses the earlier Remotion render through measured editorial retiming and a constant-frame-rate finishing pass. Kokoro model weights are not included; generated voice clips are included.
