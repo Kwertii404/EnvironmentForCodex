@@ -20,3 +20,6 @@ coverage/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Remotion render output
+showreel/rubric-walkthrough/out/

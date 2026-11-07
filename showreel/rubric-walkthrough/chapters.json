@@ -1,0 +1,37 @@
+[
+  [
+    0,
+    25,
+    "Introduction"
+  ],
+  [
+    25,
+    60,
+    "Login & dashboard"
+  ],
+  [
+    60,
+    135,
+    "Equipment CRUD"
+  ],
+  [
+    135,
+    170,
+    "Maintenance"
+  ],
+  [
+    170,
+    205,
+    "Accounts"
+  ],
+  [
+    205,
+    250,
+    "Implementation"
+  ],
+  [
+    250,
+    280,
+    "Team & recap"
+  ]
+]

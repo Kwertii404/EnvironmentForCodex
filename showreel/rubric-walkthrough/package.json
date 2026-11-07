@@ -1,0 +1,19 @@
+{
+  "name": "labtracker-rubric-walkthrough",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.tsx --no-open",
+    "render": "remotion render src/index.tsx LabTracker out/LabTracker-Walkthrough.mp4 --concurrency=4"
+  },
+  "dependencies": {
+    "remotion": "4.0.540",
+    "@remotion/cli": "4.0.540",
+    "@remotion/media": "4.0.540",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/react": "19.0.0"
+  }
+}

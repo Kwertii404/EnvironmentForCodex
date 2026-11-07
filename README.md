@@ -1,16 +1,9 @@
 # EnvironmentForCodex
 
-A minimal workspace for projects developed with Codex.
+LabTracker video presentation projects.
 
-## Getting started
+## Latest walkthrough
 
-Open this repository in your cloud environment and start adding your project files.
-No dependencies, credentials, or background services are required for this starter.
+[Open the 4:40 IT16 rubric walkthrough](showreel/rubric-walkthrough/README.md), including the 1080p MP4, editable Remotion source, all required media assets, narration script, and subtitles.
 
-## Included files
-
-- `.editorconfig` provides consistent indentation and line endings.
-- `.gitignore` excludes common local files, dependency directories, and build outputs.
-
-Add installation, run, and test commands here when a project is introduced.
-Never commit credentials or local environment files.
+Earlier showreel versions remain in [showreel/](showreel/README.md).

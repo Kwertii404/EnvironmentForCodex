@@ -1,0 +1,500 @@
+{
+  "frames": 8400,
+  "fps": 30,
+  "scenes": [
+    {
+      "index": 0,
+      "from": 0,
+      "frames": 240,
+      "cues": [
+        {
+          "start": 14,
+          "duration": 0.96725,
+          "file": "vo-0-0.wav",
+          "text": "An equipment label."
+        },
+        {
+          "start": 48,
+          "duration": 0.8625416666666667,
+          "file": "vo-0-1.wav",
+          "text": "A repair note."
+        },
+        {
+          "start": 79,
+          "duration": 1.0744166666666666,
+          "file": "vo-0-2.wav",
+          "text": "A changing status."
+        },
+        {
+          "start": 117,
+          "duration": 3.5444583333333335,
+          "file": "vo-0-3.wav",
+          "text": "Keeping these details connected is a practical challenge in a computer laboratory."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "from": 240,
+      "frames": 270,
+      "cues": [
+        {
+          "start": 13,
+          "duration": 7.945625,
+          "file": "vo-1-0.wav",
+          "text": "When records are separated, even a simple question takes longer to answer: which equipment is working, and which needs attention?"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "from": 510,
+      "frames": 240,
+      "cues": [
+        {
+          "start": 13,
+          "duration": 6.942833333333334,
+          "file": "vo-2-0.wav",
+          "text": "Meet LabTracker, our native PHP and MySQL application for equipment records and maintenance tracking."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "from": 750,
+      "frames": 360,
+      "cues": [
+        {
+          "start": 13,
+          "duration": 2.0906666666666665,
+          "file": "vo-3-0.wav",
+          "text": "We begin with administrator sign in."
+        },
+        {
+          "start": 82,
+          "duration": 6.741333333333333,
+          "file": "vo-3-1.wav",
+          "text": "The password stays hidden, and the application opens a shared workspace for managing laboratory assets."
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "from": 1110,
+      "frames": 360,
+      "cues": [
+        {
+          "start": 14,
+          "duration": 7.338666666666667,
+          "file": "vo-4-0.wav",
+          "text": "The dashboard summarizes equipment conditions and active maintenance, with this month\u2019s completed maintenance costs above."
+        },
+        {
+          "start": 239,
+          "duration": 2.3253333333333335,
+          "file": "vo-4-1.wav",
+          "text": "These figures come from our sample records."
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "from": 1470,
+      "frames": 330,
+      "cues": [
+        {
+          "start": 14,
+          "duration": 4.049916666666666,
+          "file": "vo-5-0.wav",
+          "text": "Below, equipment condition and laboratory summaries add context."
+        },
+        {
+          "start": 140,
+          "duration": 5.752125,
+          "file": "vo-5-1.wav",
+          "text": "The sidebar navigation keeps equipment, maintenance, reference data, and accounts within reach."
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "from": 1800,
+      "frames": 420,
+      "cues": [
+        {
+          "start": 14,
+          "duration": 2.112,
+          "file": "vo-6-0.wav",
+          "text": "Let\u2019s follow one disposable sample."
+        },
+        {
+          "start": 82,
+          "duration": 5.632,
+          "file": "vo-6-1.wav",
+          "text": "We enter its asset tag, choose its category and laboratory, and add the brand, model, and serial number."
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "from": 2220,
+      "frames": 300,
+      "cues": [
+        {
+          "start": 14,
+          "duration": 3.6266666666666665,
+          "file": "vo-7-0.wav",
+          "text": "After saving, LabTracker confirms that the equipment was added."
+        },
+        {
+          "start": 128,
+          "duration": 4.416,
+          "file": "vo-7-1.wav",
+          "text": "The detail page brings the stored information together in one readable record."
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "from": 2520,
+      "frames": 330,
+      "cues": [
+        {
+          "start": 14,
+          "duration": 2.1973333333333334,
+          "file": "vo-8-0.wav",
+          "text": "Next, we search for the sample asset tag."
+        },
+        {
+          "start": 85,
+          "duration": 4.864,
+          "file": "vo-8-1.wav",
+          "text": "The matching row gives us direct access to viewing, editing, and deleting that equipment."
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "from": 2850,
+      "frames": 270,
+      "cues": [
+        {
+          "start": 14,
+          "duration": 3.6693333333333333,
+          "file": "vo-9-0.wav",
+          "text": "Opening View lets us check the saved details before making a change."
+        },
+        {
+          "start": 129,
+          "duration": 2.944,
+          "file": "vo-9-1.wav",
+          "text": "We are following the same item throughout this demonstration."
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "from": 3120,
+      "frames": 390,
+      "cues": [
+        {
+          "start": 14,
+          "duration": 2.517333333333333,
+          "file": "vo-10-0.wav",
+          "text": "Suppose an inspection finds a flickering screen."
+        },
+        {
+          "start": 94,
+          "duration": 5.205333333333333,
+          "file": "vo-10-1.wav",
+          "text": "We change the condition to Defective and add an inspection note, then save the updated record."
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "from": 3510,
+      "frames": 240,
+      "cues": [
+        {
+          "start": 14,
+          "duration": 2.986666666666667,
+          "file": "vo-11-0.wav",
+          "text": "The detail page now shows the new condition and note."
+        },
+        {
+          "start": 109,
+          "duration": 1.984,
+          "file": "vo-11-1.wav",
+          "text": "This verifies that the edit was stored."
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "from": 3750,
+      "frames": 300,
+      "cues": [
+        {
+          "start": 14,
+          "duration": 2.506875,
+          "file": "vo-12-0.wav",
+          "text": "Finally, we delete this disposable sample."
+        },
+        {
+          "start": 94,
+          "duration": 6.266125,
+          "file": "vo-12-1.wav",
+          "text": "The application asks for confirmation, protects equipment with maintenance history, and returns to the equipment list."
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "from": 4050,
+      "frames": 360,
+      "cues": [
+        {
+          "start": 13,
+          "duration": 2.7093333333333334,
+          "file": "vo-13-0.wav",
+          "text": "For maintenance, we use our retained sample item."
+        },
+        {
+          "start": 100,
+          "duration": 4.736,
+          "file": "vo-13-1.wav",
+          "text": "A repair entry connects the reported issue and date directly to the selected equipment."
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "from": 4410,
+      "frames": 330,
+      "cues": [
+        {
+          "start": 13,
+          "duration": 3.008,
+          "file": "vo-14-0.wav",
+          "text": "Saving an open repair marks this item Under Repair."
+        },
+        {
+          "start": 109,
+          "duration": 4.544,
+          "file": "vo-14-1.wav",
+          "text": "The equipment list and maintenance entry describe two parts of the same situation."
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "from": 4740,
+      "frames": 360,
+      "cues": [
+        {
+          "start": 13,
+          "duration": 7.104,
+          "file": "vo-15-0.wav",
+          "text": "After the sample repair, we select Done, enter a completion date, choose Working after verification, and describe the resolution."
+        },
+        {
+          "start": 232,
+          "duration": 3.2213333333333334,
+          "file": "vo-15-1.wav",
+          "text": "The saved record preserves what was reported and completed."
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "from": 5100,
+      "frames": 330,
+      "cues": [
+        {
+          "start": 13,
+          "duration": 2.3253333333333335,
+          "file": "vo-16-0.wav",
+          "text": "Administrators can also manage accounts."
+        },
+        {
+          "start": 89,
+          "duration": 5.802666666666667,
+          "file": "vo-16-1.wav",
+          "text": "Here, a deliberately weak sample password is rejected with specific guidance about the requirements."
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "from": 5430,
+      "frames": 390,
+      "cues": [
+        {
+          "start": 13,
+          "duration": 3.648,
+          "file": "vo-17-0.wav",
+          "text": "We correct the password and create a disposable technician account."
+        },
+        {
+          "start": 128,
+          "duration": 4.736,
+          "file": "vo-17-1.wav",
+          "text": "Passwords remain masked during entry, and the account list shows its role and status."
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "from": 5820,
+      "frames": 330,
+      "cues": [
+        {
+          "start": 13,
+          "duration": 2.944,
+          "file": "vo-18-0.wav",
+          "text": "We edit the sample account\u2019s name, then deactivate it."
+        },
+        {
+          "start": 107,
+          "duration": 4.565333333333333,
+          "file": "vo-18-1.wav",
+          "text": "Its status changes, preventing continued access while keeping the account record."
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "from": 6150,
+      "frames": 360,
+      "cues": [
+        {
+          "start": 13,
+          "duration": 4.629333333333333,
+          "file": "vo-19-0.wav",
+          "text": "The source uses PHP password hashing and password verification."
+        },
+        {
+          "start": 158,
+          "duration": 5.866666666666666,
+          "file": "vo-19-1.wav",
+          "text": "Protected pages require a session, and account activity is checked again on each request."
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "from": 6510,
+      "frames": 330,
+      "cues": [
+        {
+          "start": 13,
+          "duration": 2.3495,
+          "file": "vo-20-0.wav",
+          "text": "Database operations use prepared statements."
+        },
+        {
+          "start": 89,
+          "duration": 5.118791666666667,
+          "file": "vo-20-1.wav",
+          "text": "Server-side validation checks submitted values, while CSRF tokens are checked on form requests."
+        },
+        {
+          "start": 248,
+          "duration": 2.118333333333333,
+          "file": "vo-20-2.wav",
+          "text": "These are specific implementation details."
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "from": 6840,
+      "frames": 360,
+      "cues": [
+        {
+          "start": 13,
+          "duration": 3.498666666666667,
+          "file": "vo-21-0.wav",
+          "text": "The schema links equipment to laboratories and categories."
+        },
+        {
+          "start": 124,
+          "duration": 6.976,
+          "file": "vo-21-1.wav",
+          "text": "Maintenance records reference equipment and the reporting user, connecting asset information with recorded work."
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "from": 7200,
+      "frames": 300,
+      "cues": [
+        {
+          "start": 13,
+          "duration": 5.068041666666667,
+          "file": "vo-22-0.wav",
+          "text": "We also test the behavior: after logout, opening the equipment page redirects to sign in."
+        },
+        {
+          "start": 171,
+          "duration": 3.7015416666666665,
+          "file": "vo-22-1.wav",
+          "text": "The earlier invalid password was rejected before account creation."
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "from": 7500,
+      "frames": 330,
+      "cues": [
+        {
+          "start": 13,
+          "duration": 9.536,
+          "file": "vo-23-0.wav",
+          "text": "From creating and finding equipment to recording repairs and managing accounts, LabTracker brings these everyday laboratory tasks into a consistent workflow."
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "from": 7830,
+      "frames": 390,
+      "cues": [
+        {
+          "start": 13,
+          "duration": 2.6666666666666665,
+          "file": "vo-24-0.wav",
+          "text": "Jacinth Dhane Mendoza is the main developer."
+        },
+        {
+          "start": 99,
+          "duration": 7.701333333333333,
+          "file": "vo-24-1.wav",
+          "text": "For this presentation, Jerico Teologo covers equipment and maintenance; Shena May Gadon covers accounts and the recap."
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "from": 8220,
+      "frames": 180,
+      "cues": [
+        {
+          "start": 13,
+          "duration": 0.9813333333333333,
+          "file": "vo-25-0.wav",
+          "text": "LabTracker."
+        },
+        {
+          "start": 48,
+          "duration": 2.56,
+          "file": "vo-25-1.wav",
+          "text": "From equipment records to organized maintenance."
+        }
+      ]
+    }
+  ]
+}

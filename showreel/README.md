@@ -1,4 +1,9 @@
-# LABTRACKER showreel — synchronized revision
+# LABTRACKER showreels
+
+**Latest:** [4:40 IT16 rubric walkthrough and editable source](rubric-walkthrough/README.md).
+
+## Previous synchronized revision
+
 
 A 4:52 product film using the real LABTRACKER interface, exported at 1920 × 1080 and 30 fps.
 

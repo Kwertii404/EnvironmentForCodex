@@ -1,0 +1,13 @@
+{
+  "duration_seconds": "280.000000",
+  "resolution": "1920x1080",
+  "fps": 30,
+  "frames": "8400",
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "full_decode": "passed",
+  "caption_timing": "all cues inside scene windows; non-overlapping",
+  "audio_master_lufs": -15.86,
+  "audio_master_true_peak_dbtp": -1.5,
+  "note": "Kokoro narration; member participation still requires genuine recordings or instructor-approved participation."
+}
