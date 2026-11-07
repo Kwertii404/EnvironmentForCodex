@@ -10,6 +10,6 @@
 | UI/UX | Actual application throughout; legible feedback, navigation and confirmation |
 | Data integrity | Sample-data labels throughout. No claim of verified originality or actual deployment statistics. |
 | Video | 4:40, 1080p, narration/captions. Synthetic voiceover is not proof of member participation. |
-| Individual accountability | Named presentation assignments only. Actual contributions and inspection history must be explained by members. |
+| Individual accountability | User-selected project-role credits only. Actual contributions and inspection history must be explained by members. |
 
 This is an evidence map, not a score or guarantee of rubric compliance. The source includes fixed SQL reads as well as prepared input queries; the film does not claim every query calls prepare().

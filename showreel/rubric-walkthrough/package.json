@@ -1,5 +1,5 @@
 {
-  "name": "labtracker-rubric-walkthrough",
+  "name": "labtracker-motion-revision",
   "private": true,
   "scripts": {
     "studio": "remotion studio src/index.tsx --no-open",

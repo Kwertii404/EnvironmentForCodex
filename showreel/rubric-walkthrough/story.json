@@ -6,7 +6,7 @@
     "kind": "hook",
     "title": "One laboratory. Many details.",
     "text": "An equipment label. A repair note. A changing status. Keeping these details connected is a practical challenge in a computer laboratory.",
-    "speaker": "Jacinth Dhane Mendoza"
+    "speaker": "Narrator"
   },
   {
     "id": 1,
@@ -15,7 +15,7 @@
     "kind": "hook",
     "title": "From scattered notes",
     "text": "When records are separated, even a simple question takes longer to answer: which equipment is working, and which needs attention?",
-    "speaker": "Jacinth Dhane Mendoza"
+    "speaker": "Narrator"
   },
   {
     "id": 2,
@@ -24,7 +24,7 @@
     "kind": "reveal",
     "title": "LABTRACKER",
     "text": "Meet LabTracker, our native PHP and MySQL application for equipment records and maintenance tracking.",
-    "speaker": "Jacinth Dhane Mendoza"
+    "speaker": "Narrator"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "kind": "login",
     "title": "01 / A clear starting point",
     "text": "We begin with administrator sign in. The password stays hidden, and the application opens a shared workspace for managing laboratory assets.",
-    "speaker": "Jacinth Dhane Mendoza"
+    "speaker": "Narrator"
   },
   {
     "id": 4,
@@ -42,7 +42,7 @@
     "kind": "dashboard",
     "title": "The current picture",
     "text": "The dashboard summarizes equipment conditions and active maintenance, with this month\u2019s completed maintenance costs above. These figures come from our sample records.",
-    "speaker": "Jacinth Dhane Mendoza"
+    "speaker": "Narrator"
   },
   {
     "id": 5,
@@ -51,7 +51,7 @@
     "kind": "dashboard",
     "title": "Navigate with context",
     "text": "Below, equipment condition and laboratory summaries add context. The sidebar navigation keeps equipment, maintenance, reference data, and accounts within reach.",
-    "speaker": "Jacinth Dhane Mendoza"
+    "speaker": "Narrator"
   },
   {
     "id": 6,
@@ -60,7 +60,7 @@
     "kind": "create",
     "title": "02 / Give every item a record",
     "text": "Let\u2019s follow one disposable sample. We enter its asset tag, choose its category and laboratory, and add the brand, model, and serial number.",
-    "speaker": "Jerico Teologo"
+    "speaker": "Narrator"
   },
   {
     "id": 7,
@@ -69,7 +69,7 @@
     "kind": "created",
     "title": "Saved. Ready to inspect.",
     "text": "After saving, LabTracker confirms that the equipment was added. The detail page brings the stored information together in one readable record.",
-    "speaker": "Jerico Teologo"
+    "speaker": "Narrator"
   },
   {
     "id": 8,
@@ -78,7 +78,7 @@
     "kind": "search",
     "title": "Find the same record",
     "text": "Next, we search for the sample asset tag. The matching row gives us direct access to viewing, editing, and deleting that equipment.",
-    "speaker": "Jerico Teologo"
+    "speaker": "Narrator"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "kind": "view",
     "title": "Details in one place",
     "text": "Opening View lets us check the saved details before making a change. We are following the same item throughout this demonstration.",
-    "speaker": "Jerico Teologo"
+    "speaker": "Narrator"
   },
   {
     "id": 10,
@@ -96,7 +96,7 @@
     "kind": "update",
     "title": "A meaningful update",
     "text": "Suppose an inspection finds a flickering screen. We change the condition to Defective and add an inspection note, then save the updated record.",
-    "speaker": "Jerico Teologo"
+    "speaker": "Narrator"
   },
   {
     "id": 11,
@@ -105,7 +105,7 @@
     "kind": "updated",
     "title": "The change is saved",
     "text": "The detail page now shows the new condition and note. This verifies that the edit was stored.",
-    "speaker": "Jerico Teologo"
+    "speaker": "Narrator"
   },
   {
     "id": 12,
@@ -114,7 +114,7 @@
     "kind": "delete",
     "title": "Remove only the disposable sample",
     "text": "Finally, we delete this disposable sample. The application asks for confirmation, protects equipment with maintenance history, and returns to the equipment list.",
-    "speaker": "Jerico Teologo"
+    "speaker": "Narrator"
   },
   {
     "id": 13,
@@ -123,7 +123,7 @@
     "kind": "maintenance",
     "title": "03 / Connect the repair work",
     "text": "For maintenance, we use our retained sample item. A repair entry connects the reported issue and date directly to the selected equipment.",
-    "speaker": "Jerico Teologo"
+    "speaker": "Narrator"
   },
   {
     "id": 14,
@@ -132,7 +132,7 @@
     "kind": "repair",
     "title": "Equipment and repair stay linked",
     "text": "Saving an open repair marks this item Under Repair. The equipment list and maintenance entry describe two parts of the same situation.",
-    "speaker": "Jerico Teologo"
+    "speaker": "Narrator"
   },
   {
     "id": 15,
@@ -141,7 +141,7 @@
     "kind": "done",
     "title": "Record the resolution",
     "text": "After the sample repair, we select Done, enter a completion date, choose Working after verification, and describe the resolution. The saved record preserves what was reported and completed.",
-    "speaker": "Jerico Teologo"
+    "speaker": "Narrator"
   },
   {
     "id": 16,
@@ -150,7 +150,7 @@
     "kind": "validation",
     "title": "04 / Accounts with clear feedback",
     "text": "Administrators can also manage accounts. Here, a deliberately weak sample password is rejected with specific guidance about the requirements.",
-    "speaker": "Shena May Gadon"
+    "speaker": "Narrator"
   },
   {
     "id": 17,
@@ -159,7 +159,7 @@
     "kind": "account",
     "title": "Create a sample technician",
     "text": "We correct the password and create a disposable technician account. Passwords remain masked during entry, and the account list shows its role and status.",
-    "speaker": "Shena May Gadon"
+    "speaker": "Narrator"
   },
   {
     "id": 18,
@@ -168,7 +168,7 @@
     "kind": "deactivate",
     "title": "Control account availability",
     "text": "We edit the sample account\u2019s name, then deactivate it. Its status changes, preventing continued access while keeping the account record.",
-    "speaker": "Shena May Gadon"
+    "speaker": "Narrator"
   },
   {
     "id": 19,
@@ -177,7 +177,7 @@
     "kind": "code",
     "title": "05 / Look beneath the interface",
     "text": "The source uses PHP password hashing and password verification. Protected pages require a session, and account activity is checked again on each request.",
-    "speaker": "Jacinth Dhane Mendoza"
+    "speaker": "Narrator"
   },
   {
     "id": 20,
@@ -186,7 +186,7 @@
     "kind": "prepared",
     "title": "Checks in the request path",
     "text": "Database operations use prepared statements. Server-side validation checks submitted values, while CSRF tokens are checked on form requests. These are specific implementation details.",
-    "speaker": "Jacinth Dhane Mendoza"
+    "speaker": "Narrator"
   },
   {
     "id": 21,
@@ -195,7 +195,7 @@
     "kind": "schema",
     "title": "Five tables. Connected records.",
     "text": "The schema links equipment to laboratories and categories. Maintenance records reference equipment and the reporting user, connecting asset information with recorded work.",
-    "speaker": "Jacinth Dhane Mendoza"
+    "speaker": "Narrator"
   },
   {
     "id": 22,
@@ -204,7 +204,7 @@
     "kind": "logout",
     "title": "Access checked after logout",
     "text": "We also test the behavior: after logout, opening the equipment page redirects to sign in. The earlier invalid password was rejected before account creation.",
-    "speaker": "Jacinth Dhane Mendoza"
+    "speaker": "Narrator"
   },
   {
     "id": 23,
@@ -213,16 +213,16 @@
     "kind": "recap",
     "title": "Records \u2192 maintenance \u2192 administration",
     "text": "From creating and finding equipment to recording repairs and managing accounts, LabTracker brings these everyday laboratory tasks into a consistent workflow.",
-    "speaker": "Shena May Gadon"
+    "speaker": "Narrator"
   },
   {
     "id": 24,
     "start": 261,
     "end": 274,
     "kind": "team",
-    "title": "The presentation team",
-    "text": "Jacinth Dhane Mendoza is the main developer. For this presentation, Jerico Teologo covers equipment and maintenance; Shena May Gadon covers accounts and the recap.",
-    "speaker": "Shena May Gadon"
+    "title": "The people behind the project",
+    "text": "The people behind the project. Jacinth Dhane Mendoza, main developer. Jerico Teologo, interface and user experience design. Shena May Gadon, database design and data management.",
+    "speaker": "Narrator"
   },
   {
     "id": 25,
@@ -231,6 +231,6 @@
     "kind": "end",
     "title": "LABTRACKER",
     "text": "LabTracker. From equipment records to organized maintenance.",
-    "speaker": "Shena May Gadon"
+    "speaker": "Narrator"
   }
 ]

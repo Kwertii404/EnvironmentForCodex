@@ -9,25 +9,25 @@
       "cues": [
         {
           "start": 14,
-          "duration": 0.96725,
+          "duration": 0.9544583333333333,
           "file": "vo-0-0.wav",
           "text": "An equipment label."
         },
         {
           "start": 48,
-          "duration": 0.8625416666666667,
+          "duration": 0.8539166666666667,
           "file": "vo-0-1.wav",
           "text": "A repair note."
         },
         {
           "start": 79,
-          "duration": 1.0744166666666666,
+          "duration": 1.0705833333333334,
           "file": "vo-0-2.wav",
           "text": "A changing status."
         },
         {
-          "start": 117,
-          "duration": 3.5444583333333335,
+          "start": 116,
+          "duration": 3.5711666666666666,
           "file": "vo-0-3.wav",
           "text": "Keeping these details connected is a practical challenge in a computer laboratory."
         }
@@ -40,7 +40,7 @@
       "cues": [
         {
           "start": 13,
-          "duration": 7.945625,
+          "duration": 7.949041666666667,
           "file": "vo-1-0.wav",
           "text": "When records are separated, even a simple question takes longer to answer: which equipment is working, and which needs attention?"
         }
@@ -53,7 +53,7 @@
       "cues": [
         {
           "start": 13,
-          "duration": 6.942833333333334,
+          "duration": 6.943708333333333,
           "file": "vo-2-0.wav",
           "text": "Meet LabTracker, our native PHP and MySQL application for equipment records and maintenance tracking."
         }
@@ -66,13 +66,13 @@
       "cues": [
         {
           "start": 13,
-          "duration": 2.0906666666666665,
+          "duration": 2.1546666666666665,
           "file": "vo-3-0.wav",
           "text": "We begin with administrator sign in."
         },
         {
-          "start": 82,
-          "duration": 6.741333333333333,
+          "start": 84,
+          "duration": 6.826666666666667,
           "file": "vo-3-1.wav",
           "text": "The password stays hidden, and the application opens a shared workspace for managing laboratory assets."
         }
@@ -85,13 +85,13 @@
       "cues": [
         {
           "start": 14,
-          "duration": 7.338666666666667,
+          "duration": 7.381333333333333,
           "file": "vo-4-0.wav",
           "text": "The dashboard summarizes equipment conditions and active maintenance, with this month\u2019s completed maintenance costs above."
         },
         {
-          "start": 239,
-          "duration": 2.3253333333333335,
+          "start": 240,
+          "duration": 2.3466666666666667,
           "file": "vo-4-1.wav",
           "text": "These figures come from our sample records."
         }
@@ -104,13 +104,13 @@
       "cues": [
         {
           "start": 14,
-          "duration": 4.049916666666666,
+          "duration": 4.034,
           "file": "vo-5-0.wav",
           "text": "Below, equipment condition and laboratory summaries add context."
         },
         {
           "start": 140,
-          "duration": 5.752125,
+          "duration": 5.720041666666667,
           "file": "vo-5-1.wav",
           "text": "The sidebar navigation keeps equipment, maintenance, reference data, and accounts within reach."
         }
@@ -123,13 +123,13 @@
       "cues": [
         {
           "start": 14,
-          "duration": 2.112,
+          "duration": 2.432,
           "file": "vo-6-0.wav",
           "text": "Let\u2019s follow one disposable sample."
         },
         {
-          "start": 82,
-          "duration": 5.632,
+          "start": 92,
+          "duration": 6.8693333333333335,
           "file": "vo-6-1.wav",
           "text": "We enter its asset tag, choose its category and laboratory, and add the brand, model, and serial number."
         }
@@ -142,13 +142,13 @@
       "cues": [
         {
           "start": 14,
-          "duration": 3.6266666666666665,
+          "duration": 3.6932916666666666,
           "file": "vo-7-0.wav",
           "text": "After saving, LabTracker confirms that the equipment was added."
         },
         {
-          "start": 128,
-          "duration": 4.416,
+          "start": 130,
+          "duration": 5.066291666666666,
           "file": "vo-7-1.wav",
           "text": "The detail page brings the stored information together in one readable record."
         }
@@ -161,13 +161,13 @@
       "cues": [
         {
           "start": 14,
-          "duration": 2.1973333333333334,
+          "duration": 2.496,
           "file": "vo-8-0.wav",
           "text": "Next, we search for the sample asset tag."
         },
         {
-          "start": 85,
-          "duration": 4.864,
+          "start": 94,
+          "duration": 5.504,
           "file": "vo-8-1.wav",
           "text": "The matching row gives us direct access to viewing, editing, and deleting that equipment."
         }
@@ -180,13 +180,13 @@
       "cues": [
         {
           "start": 14,
-          "duration": 3.6693333333333333,
+          "duration": 4.376666666666667,
           "file": "vo-9-0.wav",
           "text": "Opening View lets us check the saved details before making a change."
         },
         {
-          "start": 129,
-          "duration": 2.944,
+          "start": 150,
+          "duration": 3.3884166666666666,
           "file": "vo-9-1.wav",
           "text": "We are following the same item throughout this demonstration."
         }
@@ -199,13 +199,13 @@
       "cues": [
         {
           "start": 14,
-          "duration": 2.517333333333333,
+          "duration": 2.9226666666666667,
           "file": "vo-10-0.wav",
           "text": "Suppose an inspection finds a flickering screen."
         },
         {
-          "start": 94,
-          "duration": 5.205333333333333,
+          "start": 107,
+          "duration": 6.037333333333334,
           "file": "vo-10-1.wav",
           "text": "We change the condition to Defective and add an inspection note, then save the updated record."
         }
@@ -218,13 +218,13 @@
       "cues": [
         {
           "start": 14,
-          "duration": 2.986666666666667,
+          "duration": 3.52,
           "file": "vo-11-0.wav",
           "text": "The detail page now shows the new condition and note."
         },
         {
-          "start": 109,
-          "duration": 1.984,
+          "start": 125,
+          "duration": 2.304,
           "file": "vo-11-1.wav",
           "text": "This verifies that the edit was stored."
         }
@@ -237,13 +237,13 @@
       "cues": [
         {
           "start": 14,
-          "duration": 2.506875,
+          "duration": 2.381666666666667,
           "file": "vo-12-0.wav",
           "text": "Finally, we delete this disposable sample."
         },
         {
-          "start": 94,
-          "duration": 6.266125,
+          "start": 90,
+          "duration": 6.3755,
           "file": "vo-12-1.wav",
           "text": "The application asks for confirmation, protects equipment with maintenance history, and returns to the equipment list."
         }
@@ -256,13 +256,13 @@
       "cues": [
         {
           "start": 13,
-          "duration": 2.7093333333333334,
+          "duration": 3.1573333333333333,
           "file": "vo-13-0.wav",
           "text": "For maintenance, we use our retained sample item."
         },
         {
-          "start": 100,
-          "duration": 4.736,
+          "start": 114,
+          "duration": 5.674666666666667,
           "file": "vo-13-1.wav",
           "text": "A repair entry connects the reported issue and date directly to the selected equipment."
         }
@@ -275,13 +275,13 @@
       "cues": [
         {
           "start": 13,
-          "duration": 3.008,
+          "duration": 3.4346666666666668,
           "file": "vo-14-0.wav",
           "text": "Saving an open repair marks this item Under Repair."
         },
         {
-          "start": 109,
-          "duration": 4.544,
+          "start": 122,
+          "duration": 5.333333333333333,
           "file": "vo-14-1.wav",
           "text": "The equipment list and maintenance entry describe two parts of the same situation."
         }
@@ -294,13 +294,13 @@
       "cues": [
         {
           "start": 13,
-          "duration": 7.104,
+          "duration": 7.5259583333333335,
           "file": "vo-15-0.wav",
           "text": "After the sample repair, we select Done, enter a completion date, choose Working after verification, and describe the resolution."
         },
         {
-          "start": 232,
-          "duration": 3.2213333333333334,
+          "start": 245,
+          "duration": 3.230875,
           "file": "vo-15-1.wav",
           "text": "The saved record preserves what was reported and completed."
         }
@@ -313,13 +313,13 @@
       "cues": [
         {
           "start": 13,
-          "duration": 2.3253333333333335,
+          "duration": 2.6453333333333333,
           "file": "vo-16-0.wav",
           "text": "Administrators can also manage accounts."
         },
         {
-          "start": 89,
-          "duration": 5.802666666666667,
+          "start": 98,
+          "duration": 6.250666666666667,
           "file": "vo-16-1.wav",
           "text": "Here, a deliberately weak sample password is rejected with specific guidance about the requirements."
         }
@@ -332,13 +332,13 @@
       "cues": [
         {
           "start": 13,
-          "duration": 3.648,
+          "duration": 4.096,
           "file": "vo-17-0.wav",
           "text": "We correct the password and create a disposable technician account."
         },
         {
-          "start": 128,
-          "duration": 4.736,
+          "start": 142,
+          "duration": 5.333333333333333,
           "file": "vo-17-1.wav",
           "text": "Passwords remain masked during entry, and the account list shows its role and status."
         }
@@ -351,13 +351,13 @@
       "cues": [
         {
           "start": 13,
-          "duration": 2.944,
+          "duration": 3.392,
           "file": "vo-18-0.wav",
           "text": "We edit the sample account\u2019s name, then deactivate it."
         },
         {
-          "start": 107,
-          "duration": 4.565333333333333,
+          "start": 121,
+          "duration": 5.141333333333334,
           "file": "vo-18-1.wav",
           "text": "Its status changes, preventing continued access while keeping the account record."
         }
@@ -370,13 +370,13 @@
       "cues": [
         {
           "start": 13,
-          "duration": 4.629333333333333,
+          "duration": 4.650666666666667,
           "file": "vo-19-0.wav",
           "text": "The source uses PHP password hashing and password verification."
         },
         {
           "start": 158,
-          "duration": 5.866666666666666,
+          "duration": 5.9093333333333335,
           "file": "vo-19-1.wav",
           "text": "Protected pages require a session, and account activity is checked again on each request."
         }
@@ -389,19 +389,19 @@
       "cues": [
         {
           "start": 13,
-          "duration": 2.3495,
+          "duration": 2.3794166666666667,
           "file": "vo-20-0.wav",
           "text": "Database operations use prepared statements."
         },
         {
-          "start": 89,
-          "duration": 5.118791666666667,
+          "start": 90,
+          "duration": 5.105375,
           "file": "vo-20-1.wav",
           "text": "Server-side validation checks submitted values, while CSRF tokens are checked on form requests."
         },
         {
-          "start": 248,
-          "duration": 2.118333333333333,
+          "start": 249,
+          "duration": 2.11525,
           "file": "vo-20-2.wav",
           "text": "These are specific implementation details."
         }
@@ -433,13 +433,13 @@
       "cues": [
         {
           "start": 13,
-          "duration": 5.068041666666667,
+          "duration": 5.057375,
           "file": "vo-22-0.wav",
           "text": "We also test the behavior: after logout, opening the equipment page redirects to sign in."
         },
         {
           "start": 171,
-          "duration": 3.7015416666666665,
+          "duration": 3.7091666666666665,
           "file": "vo-22-1.wav",
           "text": "The earlier invalid password was rejected before account creation."
         }
@@ -452,7 +452,7 @@
       "cues": [
         {
           "start": 13,
-          "duration": 9.536,
+          "duration": 9.945291666666666,
           "file": "vo-23-0.wav",
           "text": "From creating and finding equipment to recording repairs and managing accounts, LabTracker brings these everyday laboratory tasks into a consistent workflow."
         }
@@ -465,15 +465,27 @@
       "cues": [
         {
           "start": 13,
-          "duration": 2.6666666666666665,
+          "duration": 1.807625,
           "file": "vo-24-0.wav",
-          "text": "Jacinth Dhane Mendoza is the main developer."
+          "text": "The people behind the project."
         },
         {
-          "start": 99,
-          "duration": 7.701333333333333,
+          "start": 73,
+          "duration": 2.4518333333333335,
           "file": "vo-24-1.wav",
-          "text": "For this presentation, Jerico Teologo covers equipment and maintenance; Shena May Gadon covers accounts and the recap."
+          "text": "Jacinth Dhane Mendoza, main developer."
+        },
+        {
+          "start": 152,
+          "duration": 3.660041666666667,
+          "file": "vo-24-2.wav",
+          "text": "Jerico Teologo, interface and user experience design."
+        },
+        {
+          "start": 267,
+          "duration": 3.568875,
+          "file": "vo-24-3.wav",
+          "text": "Shena May Gadon, database design and data management."
         }
       ]
     },
@@ -484,13 +496,13 @@
       "cues": [
         {
           "start": 13,
-          "duration": 0.9813333333333333,
+          "duration": 1.152,
           "file": "vo-25-0.wav",
           "text": "LabTracker."
         },
         {
-          "start": 48,
-          "duration": 2.56,
+          "start": 53,
+          "duration": 2.88,
           "file": "vo-25-1.wav",
           "text": "From equipment records to organized maintenance."
         }

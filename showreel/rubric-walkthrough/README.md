@@ -1,17 +1,18 @@
-# LabTracker — IT16 rubric walkthrough
+# LabTracker — motion graphics revision
 
-A 4:40 Remotion film using the latest cleaned application’s real UI, with Kokoro narration, an original instrumental score, motion graphics, and synchronized captions.
+A 4:40, 1920×1080, 30 fps walkthrough built in Remotion using the real LabTracker interface.
 
-- [Watch/download the 1080p MP4](LabTracker-Walkthrough.mp4)
-- [Narration and member speaking assignments](Narration-Script.md)
-- [SRT subtitles](LabTracker.srt)
-- [Storyboard](Storyboard.md)
-- [Rubric coverage and limitations](Rubric-Coverage.md)
-- [Export verification](Quality-Check.json)
+[Download the revised MP4](https://github.com/Kwertii404/EnvironmentForCodex/raw/refs/heads/main/showreel/rubric-walkthrough/LabTracker-Walkthrough.mp4) · [Subtitles](LabTracker.srt) · [Narration script](Narration-Script.md)
 
-## Edit or render
+## Changes in this revision
 
-Install Node.js, then run from this directory:
+- One consistent Kokoro `am_michael` narrator, with measured sentence timing and an updated music ducking envelope.
+- “The people behind the project” credits: Jacinth Dhane Mendoza — Main Developer; Jerico Teologo — UI/UX Design; Shena May Gadon — Database Design & Data Management.
+- The additional roles were selected at the user's request as credit-role assignments. They are not independently verified claims about historical contributions.
+- Stronger chapter wipes, word reveals, UI camera moves, animated focus outlines, workflow steps, code highlights and moving schema connectors.
+- Removed presentation-assignment wording and the on-screen draft labels.
+
+## Edit and render
 
 ```sh
 npm ci
@@ -19,16 +20,10 @@ npm run studio
 npm run render
 ```
 
-The main composition is `src/index.tsx`; each chapter has its own component. `public/` includes all prepared application footage, screenshots, narration clips, the original instrumental, and the mastered audio. No PHP server, demo database, Kokoro model, or recording setup is needed to edit and render these included assets.
+The complete timeline is `src/index.tsx`. Each chapter has a separate component. Shared graphics are in `src/Design.tsx` and motion components are in `src/Motion.tsx`. The `public/` folder contains everything required for ordinary rendering: prepared real-UI clips, screenshots, narration clips, instrumental music and the mastered mix.
 
-The mastered mix and instrumental use lossless FLAC to reduce repository size. The source-generation scripts are optional: `voice.py` needs kokoro-onnx and locally configured model paths; `score.py` generates WAV intermediates. Convert the mastered mix to `public/master.flac` after regenerating audio. These scripts are not needed for the standard render command.
+`story.json` is the narration source; `timing.json` contains measured cue timing; `LabTracker.srt` provides standalone subtitles. `voice.py` and `score.py` are optional regeneration scripts. Voice regeneration requires kokoro-onnx and the model paths configured in `voice.py`; included audio means that setup is unnecessary for standard editing.
 
-## Content and participation
+All demonstration records are sample data. The app's source-backed implementation details are not a comprehensive security audit. Synthetic narration does not establish the rubric's requirement for actual member participation.
 
-The film demonstrates login/dashboard, equipment CRUD, maintenance, account management, source-backed implementation details, and logout protection. All records shown are labeled sample data.
-
-Kokoro voices are synthetic placeholders, not recordings or voice clones of the members. Jacinth Dhane Mendoza is the confirmed main developer. Jerico Teologo and Shena May Gadon have assigned presentation sections, which do not assert historical development contributions. The rubric’s actual member-participation requirement still needs genuine member involvement.
-
-The export is 1920×1080, 30 fps, 8,400 frames, H.264/AAC. Full decoding and caption-window checks passed. The audio master measures −15.86 LUFS and −1.5 dBTP.
-
-The large delivery ZIP, caches, dependencies, local credentials, and disposable demo database are excluded from Git. All assets needed for the included composition are tracked individually.
+In this Git repository, the mastered mix and instrumental are stored as lossless FLAC. When regenerating audio, convert the resulting master to `public/master.flac`.
