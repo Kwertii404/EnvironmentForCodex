@@ -1,14 +1,16 @@
 {
-  "duration_seconds": "280.000000",
+  "duration_seconds": "297.500000",
   "resolution": "1920x1080",
   "fps": 30,
-  "frames": "8400",
+  "frames": "8925",
   "video_codec": "h264",
   "audio_codec": "aac",
   "full_decode": "passed",
   "caption_timing": "all cues inside scene windows; non-overlapping",
-  "audio_master_lufs": -16.05,
+  "audio_master_lufs": -15.95,
   "audio_master_true_peak_dbtp": -1.5,
   "narration": "Single Kokoro am_michael voice",
-  "team_credits": "Roles selected at user request"
+  "team_credits": "Roles selected at user request",
+  "title_card_hold_seconds": 2.5,
+  "title_card_count": 7
 }

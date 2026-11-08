@@ -2,11 +2,6 @@ import React from 'react';
 import {interpolate,Easing} from 'remotion';
 const ease={extrapolateLeft:'clamp' as const,extrapolateRight:'clamp' as const,easing:Easing.bezier(.16,1,.3,1)};
 export const RevealText=({text,frame}:{text:string;frame:number})=><>{text.split(' ').map((w,i)=><span key={i} style={{display:'inline-block',overflow:'hidden',verticalAlign:'bottom',paddingBottom:5,marginRight:'.22em'}}><span style={{display:'inline-block',translate:`0 ${interpolate(frame,[i*3,i*3+24],[110,0],ease)}%`,opacity:interpolate(frame,[i*3,i*3+20],[0,1],ease)}}>{w}</span></span>)}</>;
-const major:Record<number,[string,string]>={0:['LABTRACKER','From records to maintenance'],3:['01','Login & dashboard'],6:['02','Equipment workflow'],13:['03','Maintenance tracking'],16:['04','Account management'],19:['05','Under the interface'],23:['06','The project team']};
-export const ChapterWipe=({index,frame}:{index:number;frame:number})=>{
- const d=major[index];if(!d||frame>32)return null;
- return <div style={{position:'absolute',inset:0,background:'#0f2a43',color:'white',translate:`${interpolate(frame,[0,30],[0,1920],ease)}px 0`,zIndex:20,borderLeft:'18px solid #f2a93b',display:'flex',alignItems:'center',padding:100,gap:60}}><span style={{fontSize:d[0].length>2?80:180,fontWeight:800,color:'#f2a93b'}}>{d[0]}</span><span style={{fontSize:68,fontWeight:700}}>{d[1]}</span></div>;
-};
 const boxes:Record<number,[number,number,number,number]>={4:[274,116,1128,150],5:[6,96,224,262],7:[273,15,1127,140],8:[272,269,1130,173],9:[273,84,1128,317],11:[271,22,1131,166],14:[272,263,1130,152],15:[271,20,1130,152],16:[273,95,1127,125],17:[273,187,1127,168],18:[273,187,1127,168]};
 export const FocusMark=({index,frame,duration}:{index:number;frame:number;duration:number})=>{
  const b=boxes[index];if(!b)return null;

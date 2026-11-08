@@ -3,7 +3,7 @@ import {AbsoluteFill,Img,Sequence,staticFile,useCurrentFrame,useVideoConfig,inte
 import {Video} from '@remotion/media';
 import story from '../story.json';
 import timing from '../timing.json';
-import {RevealText,ChapterWipe,FocusMark,HeroFlow,CodeLines} from './Motion';
+import {RevealText,FocusMark,HeroFlow,CodeLines} from './Motion';
 const ink='#0f2a43',amber='#f2a93b',paper='#f6f4ef',blue='#1e5a8a';
 const ease={extrapolateLeft:'clamp' as const,extrapolateRight:'clamp' as const,easing:Easing.bezier(.16,1,.3,1)};
 const chapter=(t:number)=>t<25?'THE PROBLEM':t<60?'01 / LOGIN & DASHBOARD':t<135?'02 / EQUIPMENT':t<170?'03 / MAINTENANCE':t<205?'04 / ACCOUNTS':t<250?'05 / IMPLEMENTATION':'06 / THE TEAM';
@@ -32,7 +32,7 @@ export const Beat=({index}:{index:number})=>{
   </>:<Graphic kind={r.kind} title={r.title} frame={f}/>}
   <div style={{position:'absolute',left:0,right:0,bottom:0,height:102,background:ink,color:'white',display:'flex',alignItems:'center',justifyContent:'center',padding:'12px 140px',fontSize:27,lineHeight:1.28,textAlign:'center'}}>{cue?.text}</div>
   <div style={{position:'absolute',bottom:0,left:0,height:4,background:amber,width:`${(r.start+sec)/280*100}%`}}/>
-  <ChapterWipe index={index} frame={f}/>
+
  </AbsoluteFill>
 };
 const Card=({x,y,w=460,title,sub,f,delay=0}:{x:number;y:number;w?:number;title:string;sub:string;f:number;delay?:number})=><div style={{position:'absolute',left:x,top:y,width:w,padding:32,borderRadius:12,border:'1px solid #c8d4df',background:'#fff',boxShadow:'0 12px 30px #0f2a4309',opacity:interpolate(f,[delay,delay+20],[0,1],ease),translate:`0 ${interpolate(f,[delay,delay+30],[36,0],ease)}px`}}><div style={{width:interpolate(f,[delay+5,delay+55],[0,120],ease),height:5,background:amber,marginBottom:24}}/><div style={{fontSize:35,fontWeight:700,lineHeight:1.2}}><RevealText text={title} frame={f}/></div><div style={{fontSize:23,color:'#617183',marginTop:22,lineHeight:1.5,whiteSpace:'pre-line'}}>{sub.replace(/\\n/g, '\n')}</div></div>;

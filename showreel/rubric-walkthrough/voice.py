@@ -15,13 +15,15 @@ for r in rows:
   audio.append((fn,a,sr,p))
  total=sum(len(a)/sr for _,a,sr,_ in audio)+.18*(len(audio)-1)
  available=r['end']-r['start']-1.05;ratio=max(1,total/available)
- pos=r['start']+.45;cues=[]
+ chapter_index=next(i for i,(a,b,_) in enumerate(json.load(open('chapters.json'))) if a<=r['start']<b)
+ offset=2.5*(chapter_index+1)
+ pos=r['start']+offset+.45;cues=[]
  for fn,a,sr,p in audio:
   if ratio>1:
    subprocess.run(['ffmpeg','-v','error','-i',fn,'-af',f'atempo={ratio}','-y',fn+'.wav'],check=True);os.replace(fn+'.wav',fn);a,sr=sf.read(fn,dtype='float32')
-  dur=len(a)/sr;cues.append(dict(start=round((pos-r['start'])*30),duration=dur,file=os.path.basename(fn),text=p))
+  dur=len(a)/sr;cues.append(dict(start=round((pos-r['start']-offset)*30),duration=dur,file=os.path.basename(fn),text=p))
   srt.append(f'{idx}\n{stamp(pos)} --> {stamp(pos+dur)}\n{p}\n');idx+=1;pos+=dur+.18
- timing.append(dict(index=r['id'],**{'from':r['start']*30},frames=(r['end']-r['start'])*30,cues=cues))
+ timing.append(dict(index=r['id'],**{'from':round((r['start']+offset)*30)},frames=(r['end']-r['start'])*30,cues=cues))
  print(r['id'],round(total,2),'window',r['end']-r['start'],'tempo',round(ratio,2),flush=True)
-json.dump(dict(frames=8400,fps=30,scenes=timing),open('timing.json','w'),indent=2)
+json.dump(dict(frames=8925,fps=30,scenes=timing),open('timing.json','w'),indent=2)
 open('LabTracker.srt','w').write('\n'.join(srt))

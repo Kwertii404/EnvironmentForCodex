@@ -1,10 +1,14 @@
 # LabTracker — motion graphics revision
 
-A 4:40, 1920×1080, 30 fps walkthrough built in Remotion using the real LabTracker interface.
+A 4:57.5, 1920×1080, 30 fps walkthrough built in Remotion using the real LabTracker interface.
 
-[Download the revised MP4](https://github.com/Kwertii404/EnvironmentForCodex/raw/refs/heads/main/showreel/rubric-walkthrough/LabTracker-Walkthrough.mp4) · [Subtitles](LabTracker.srt) · [Narration script](Narration-Script.md)
+## Readable chapter cards
 
-## Changes in this revision
+Each of the seven cards has a 0.3-second entrance, 2.5-second fully visible hold, and 0.7-second exit. The exit overlaps the chapter opening. Narration and captions shift together by 2.5 seconds per card. Walkthrough playback speed is unchanged. The new duration is 297.5 seconds (8,925 frames).
+
+Title cards are authored in `src/ReadableChapters.tsx`; the root timeline is in `src/index.tsx`.
+
+## Earlier motion revision
 
 - One consistent Kokoro `am_michael` narrator, with measured sentence timing and an updated music ducking envelope.
 - “The people behind the project” credits: Jacinth Dhane Mendoza — Main Developer; Jerico Teologo — UI/UX Design; Shena May Gadon — Database Design & Data Management.
@@ -26,4 +30,4 @@ The complete timeline is `src/index.tsx`. Each chapter has a separate component.
 
 All demonstration records are sample data. The app's source-backed implementation details are not a comprehensive security audit. Synthetic narration does not establish the rubric's requirement for actual member participation.
 
-In this Git repository, the mastered mix and instrumental are stored as lossless FLAC. When regenerating audio, convert the resulting master to `public/master.flac`.
+[Download the updated MP4](https://github.com/Kwertii404/EnvironmentForCodex/raw/refs/heads/main/showreel/rubric-walkthrough/LabTracker-Walkthrough.mp4). The Git version stores the master and instrumental as lossless FLAC.

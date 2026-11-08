@@ -1,215 +1,215 @@
 1
-00:00:00,450 --> 00:00:01,404
+00:00:02,967 --> 00:00:03,921
 An equipment label.
 
 2
-00:00:01,584 --> 00:00:02,438
+00:00:04,100 --> 00:00:04,954
 A repair note.
 
 3
-00:00:02,618 --> 00:00:03,689
+00:00:05,133 --> 00:00:06,204
 A changing status.
 
 4
-00:00:03,869 --> 00:00:07,440
+00:00:06,367 --> 00:00:09,938
 Keeping these details connected is a practical challenge in a computer laboratory.
 
 5
-00:00:08,450 --> 00:00:16,399
+00:00:10,933 --> 00:00:18,882
 When records are separated, even a simple question takes longer to answer: which equipment is working, and which needs attention?
 
 6
-00:00:17,450 --> 00:00:24,394
+00:00:19,933 --> 00:00:26,877
 Meet LabTracker, our native PHP and MySQL application for equipment records and maintenance tracking.
 
 7
-00:00:25,450 --> 00:00:27,605
+00:00:30,433 --> 00:00:32,588
 We begin with administrator sign in.
 
 8
-00:00:27,785 --> 00:00:34,611
+00:00:32,800 --> 00:00:39,627
 The password stays hidden, and the application opens a shared workspace for managing laboratory assets.
 
 9
-00:00:37,450 --> 00:00:44,831
+00:00:42,467 --> 00:00:49,848
 The dashboard summarizes equipment conditions and active maintenance, with this month’s completed maintenance costs above.
 
 10
-00:00:45,011 --> 00:00:47,358
+00:00:50,000 --> 00:00:52,347
 These figures come from our sample records.
 
 11
-00:00:49,450 --> 00:00:53,484
+00:00:54,467 --> 00:00:58,501
 Below, equipment condition and laboratory summaries add context.
 
 12
-00:00:53,664 --> 00:00:59,384
+00:00:58,667 --> 00:01:04,387
 The sidebar navigation keeps equipment, maintenance, reference data, and accounts within reach.
 
 13
-00:01:00,450 --> 00:01:02,882
+00:01:07,967 --> 00:01:10,399
 Let’s follow one disposable sample.
 
 14
-00:01:03,062 --> 00:01:09,931
+00:01:10,567 --> 00:01:17,436
 We enter its asset tag, choose its category and laboratory, and add the brand, model, and serial number.
 
 15
-00:01:14,450 --> 00:01:18,143
+00:01:21,967 --> 00:01:25,660
 After saving, LabTracker confirms that the equipment was added.
 
 16
-00:01:18,323 --> 00:01:23,390
+00:01:25,833 --> 00:01:30,900
 The detail page brings the stored information together in one readable record.
 
 17
-00:01:24,450 --> 00:01:26,946
+00:01:31,967 --> 00:01:34,463
 Next, we search for the sample asset tag.
 
 18
-00:01:27,126 --> 00:01:32,630
+00:01:34,633 --> 00:01:40,137
 The matching row gives us direct access to viewing, editing, and deleting that equipment.
 
 19
-00:01:35,450 --> 00:01:39,827
+00:01:42,967 --> 00:01:47,343
 Opening View lets us check the saved details before making a change.
 
 20
-00:01:40,007 --> 00:01:43,395
+00:01:47,500 --> 00:01:50,888
 We are following the same item throughout this demonstration.
 
 21
-00:01:44,450 --> 00:01:47,373
+00:01:51,967 --> 00:01:54,889
 Suppose an inspection finds a flickering screen.
 
 22
-00:01:47,553 --> 00:01:53,590
+00:01:55,067 --> 00:02:01,104
 We change the condition to Defective and add an inspection note, then save the updated record.
 
 23
-00:01:57,450 --> 00:02:00,970
+00:02:04,967 --> 00:02:08,487
 The detail page now shows the new condition and note.
 
 24
-00:02:01,150 --> 00:02:03,454
+00:02:08,667 --> 00:02:10,971
 This verifies that the edit was stored.
 
 25
-00:02:05,450 --> 00:02:07,832
+00:02:12,967 --> 00:02:15,348
 Finally, we delete this disposable sample.
 
 26
-00:02:08,012 --> 00:02:14,387
+00:02:15,500 --> 00:02:21,876
 The application asks for confirmation, protects equipment with maintenance history, and returns to the equipment list.
 
 27
-00:02:15,450 --> 00:02:18,607
+00:02:25,433 --> 00:02:28,591
 For maintenance, we use our retained sample item.
 
 28
-00:02:18,787 --> 00:02:24,462
+00:02:28,800 --> 00:02:34,475
 A repair entry connects the reported issue and date directly to the selected equipment.
 
 29
-00:02:27,450 --> 00:02:30,885
+00:02:37,433 --> 00:02:40,868
 Saving an open repair marks this item Under Repair.
 
 30
-00:02:31,065 --> 00:02:36,398
+00:02:41,067 --> 00:02:46,400
 The equipment list and maintenance entry describe two parts of the same situation.
 
 31
-00:02:38,450 --> 00:02:45,976
+00:02:48,433 --> 00:02:55,959
 After the sample repair, we select Done, enter a completion date, choose Working after verification, and describe the resolution.
 
 32
-00:02:46,156 --> 00:02:49,387
+00:02:56,167 --> 00:02:59,398
 The saved record preserves what was reported and completed.
 
 33
-00:02:50,450 --> 00:02:53,095
+00:03:02,933 --> 00:03:05,579
 Administrators can also manage accounts.
 
 34
-00:02:53,275 --> 00:02:59,526
+00:03:05,767 --> 00:03:12,017
 Here, a deliberately weak sample password is rejected with specific guidance about the requirements.
 
 35
-00:03:01,450 --> 00:03:05,546
+00:03:13,933 --> 00:03:18,029
 We correct the password and create a disposable technician account.
 
 36
-00:03:05,726 --> 00:03:11,059
+00:03:18,233 --> 00:03:23,567
 Passwords remain masked during entry, and the account list shows its role and status.
 
 37
-00:03:14,450 --> 00:03:17,842
+00:03:26,933 --> 00:03:30,325
 We edit the sample account’s name, then deactivate it.
 
 38
-00:03:18,022 --> 00:03:23,163
+00:03:30,533 --> 00:03:35,675
 Its status changes, preventing continued access while keeping the account record.
 
 39
-00:03:25,450 --> 00:03:30,101
+00:03:40,433 --> 00:03:45,084
 The source uses PHP password hashing and password verification.
 
 40
-00:03:30,281 --> 00:03:36,190
+00:03:45,267 --> 00:03:51,176
 Protected pages require a session, and account activity is checked again on each request.
 
 41
-00:03:37,450 --> 00:03:39,829
+00:03:52,433 --> 00:03:54,813
 Database operations use prepared statements.
 
 42
-00:03:40,009 --> 00:03:45,115
+00:03:55,000 --> 00:04:00,105
 Server-side validation checks submitted values, while CSRF tokens are checked on form requests.
 
 43
-00:03:45,295 --> 00:03:47,410
+00:04:00,300 --> 00:04:02,415
 These are specific implementation details.
 
 44
-00:03:48,450 --> 00:03:51,949
+00:04:03,433 --> 00:04:06,932
 The schema links equipment to laboratories and categories.
 
 45
-00:03:52,129 --> 00:03:59,105
+00:04:07,133 --> 00:04:14,109
 Maintenance records reference equipment and the reporting user, connecting asset information with recorded work.
 
 46
-00:04:00,450 --> 00:04:05,507
+00:04:15,433 --> 00:04:20,491
 We also test the behavior: after logout, opening the equipment page redirects to sign in.
 
 47
-00:04:05,687 --> 00:04:09,397
+00:04:20,700 --> 00:04:24,409
 The earlier invalid password was rejected before account creation.
 
 48
-00:04:10,450 --> 00:04:20,395
+00:04:27,933 --> 00:04:37,879
 From creating and finding equipment to recording repairs and managing accounts, LabTracker brings these everyday laboratory tasks into a consistent workflow.
 
 49
-00:04:21,450 --> 00:04:23,258
+00:04:38,933 --> 00:04:40,741
 The people behind the project.
 
 50
-00:04:23,438 --> 00:04:25,889
+00:04:40,933 --> 00:04:43,385
 Jacinth Dhane Mendoza, main developer.
 
 51
-00:04:26,069 --> 00:04:29,730
+00:04:43,567 --> 00:04:47,227
 Jerico Teologo, interface and user experience design.
 
 52
-00:04:29,910 --> 00:04:33,478
+00:04:47,400 --> 00:04:50,969
 Shena May Gadon, database design and data management.
 
 53
-00:04:34,450 --> 00:04:35,602
+00:04:51,933 --> 00:04:53,085
 LabTracker.
 
 54
-00:04:35,782 --> 00:04:38,662
+00:04:53,267 --> 00:04:56,147
 From equipment records to organized maintenance.

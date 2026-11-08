@@ -1,32 +1,30 @@
-# Motion graphics revision — timeline
+# Playback timeline — readable title cards
 
-One Kokoro am_michael narrator throughout.
-
-| Time | Scene |
+| Start | Scene |
 |---|---|
-| 0:00–0:08 | One laboratory. Many details. |
-| 0:08–0:17 | From scattered notes |
-| 0:17–0:25 | LABTRACKER |
-| 0:25–0:37 | 01 / A clear starting point |
-| 0:37–0:49 | The current picture |
-| 0:49–1:00 | Navigate with context |
-| 1:00–1:14 | 02 / Give every item a record |
-| 1:14–1:24 | Saved. Ready to inspect. |
-| 1:24–1:35 | Find the same record |
-| 1:35–1:44 | Details in one place |
-| 1:44–1:57 | A meaningful update |
-| 1:57–2:05 | The change is saved |
-| 2:05–2:15 | Remove only the disposable sample |
-| 2:15–2:27 | 03 / Connect the repair work |
-| 2:27–2:38 | Equipment and repair stay linked |
-| 2:38–2:50 | Record the resolution |
-| 2:50–3:01 | 04 / Accounts with clear feedback |
-| 3:01–3:14 | Create a sample technician |
-| 3:14–3:25 | Control account availability |
-| 3:25–3:37 | 05 / Look beneath the interface |
-| 3:37–3:48 | Checks in the request path |
-| 3:48–4:00 | Five tables. Connected records. |
-| 4:00–4:10 | Access checked after logout |
-| 4:10–4:21 | Records → maintenance → administration |
-| 4:21–4:34 | The people behind the project |
-| 4:34–4:40 | LABTRACKER |
+| 0:02.5 | One laboratory. Many details. |
+| 0:10.5 | From scattered notes |
+| 0:19.5 | LABTRACKER |
+| 0:30.0 | 01 / A clear starting point |
+| 0:42.0 | The current picture |
+| 0:54.0 | Navigate with context |
+| 1:07.5 | 02 / Give every item a record |
+| 1:21.5 | Saved. Ready to inspect. |
+| 1:31.5 | Find the same record |
+| 1:42.5 | Details in one place |
+| 1:51.5 | A meaningful update |
+| 2:04.5 | The change is saved |
+| 2:12.5 | Remove only the disposable sample |
+| 2:25.0 | 03 / Connect the repair work |
+| 2:37.0 | Equipment and repair stay linked |
+| 2:48.0 | Record the resolution |
+| 3:02.5 | 04 / Accounts with clear feedback |
+| 3:13.5 | Create a sample technician |
+| 3:26.5 | Control account availability |
+| 3:40.0 | 05 / Look beneath the interface |
+| 3:52.0 | Checks in the request path |
+| 4:03.0 | Five tables. Connected records. |
+| 4:15.0 | Access checked after logout |
+| 4:27.5 | Records → maintenance → administration |
+| 4:38.5 | The people behind the project |
+| 4:51.5 | LABTRACKER |

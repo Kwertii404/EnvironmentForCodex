@@ -1,6 +1,6 @@
 # LABTRACKER showreels
 
-**Latest:** [4:40 IT16 rubric walkthrough and editable source](rubric-walkthrough/README.md).
+**Latest:** [4:57.5 IT16 rubric walkthrough and editable source](rubric-walkthrough/README.md).
 
 ## Previous synchronized revision
 
