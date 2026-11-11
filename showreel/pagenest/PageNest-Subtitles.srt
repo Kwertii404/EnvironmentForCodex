@@ -1,0 +1,183 @@
+1
+00:00:03,500 --> 00:00:06,828
+Every great reading journey starts with a little curiosity.
+
+2
+00:00:07,008 --> 00:00:14,261
+Meet PageNest, a personal home for the books you want to read, the stories you are reading, and the ones you have finished.
+
+3
+00:00:17,650 --> 00:00:18,994
+Start in Discover.
+
+4
+00:00:19,174 --> 00:00:24,443
+Search by a book title or an author, or explore a subject that catches your attention.
+
+5
+00:00:24,623 --> 00:00:31,429
+PageNest brings the catalog into a compact browsing experience, with the essentials visible at a glance.
+
+6
+00:00:34,650 --> 00:00:36,847
+Open a book to take a closer look.
+
+7
+00:00:37,027 --> 00:00:42,574
+The details sheet brings together its title, author, description, and subjects when available.
+
+8
+00:00:42,754 --> 00:00:47,618
+You can explore a possible next read without losing your place in the results.
+
+9
+00:00:51,650 --> 00:00:54,615
+When something interests you, add it to your library.
+
+10
+00:00:54,795 --> 00:00:58,678
+Your saved collection becomes a reading queue you can return to.
+
+11
+00:00:58,858 --> 00:01:04,725
+The navigation badge keeps that collection close, while the library gives each book a clear place.
+
+12
+00:01:11,500 --> 00:01:15,681
+A reading list becomes more useful when it reflects where you really are.
+
+13
+00:01:15,861 --> 00:01:24,373
+PageNest separates books you want to read, books you are currently reading, and books you have completed, making the next action easy to see.
+
+14
+00:01:25,650 --> 00:01:28,530
+Use the status filters to narrow your collection.
+
+15
+00:01:28,710 --> 00:01:36,774
+Look at your current reads when it is time to pick up a book, or revisit completed titles when you want to reflect on what you have finished.
+
+16
+00:01:42,650 --> 00:01:47,279
+As your collection grows, search within your library to find a saved book.
+
+17
+00:01:47,459 --> 00:01:50,382
+Sorting gives you another way to arrange the list.
+
+18
+00:01:50,562 --> 00:01:55,191
+The aim is simple: spend less time finding your place, and more time reading.
+
+19
+00:01:59,650 --> 00:02:03,170
+Move a book into Reading and update the page you have reached.
+
+20
+00:02:03,350 --> 00:02:07,211
+The progress bar turns that number into a clear visual checkpoint.
+
+21
+00:02:07,391 --> 00:02:12,447
+Small page controls help you make quick updates as you continue through a book.
+
+22
+00:02:19,500 --> 00:02:22,572
+A reading goal gives your collection a little direction.
+
+23
+00:02:22,752 --> 00:02:25,632
+Set the number of books you would like to finish this year.
+
+24
+00:02:25,812 --> 00:02:32,404
+PageNest shows your progress toward that target alongside the library, so the bigger picture stays visible.
+
+25
+00:02:33,650 --> 00:02:35,954
+When you finish a book, mark it Completed.
+
+26
+00:02:36,134 --> 00:02:40,721
+Your library statistics and goal progress update to reflect the change.
+
+27
+00:02:40,901 --> 00:02:45,679
+It is a satisfying way to close one reading journey and make room for the next.
+
+28
+00:02:50,650 --> 00:02:55,941
+Some books leave you with a question, a favorite passage, or a thought you want to remember.
+
+29
+00:02:56,121 --> 00:03:03,289
+Personal notes keep those reflections attached to the book, turning a list of titles into a more meaningful reading record.
+
+30
+00:03:07,650 --> 00:03:10,295
+Add a star rating to capture your response.
+
+31
+00:03:10,475 --> 00:03:15,361
+Together, ratings and notes help you remember more than whether you finished a title.
+
+32
+00:03:15,541 --> 00:03:19,829
+They preserve a little of what the experience meant to you, in your own words.
+
+33
+00:03:27,500 --> 00:03:30,551
+Switch between light and dark themes from the header.
+
+34
+00:03:30,731 --> 00:03:36,299
+The same controls and reading information remain familiar, while the colors change around them.
+
+35
+00:03:36,479 --> 00:03:40,361
+Choose the appearance that feels most comfortable for your reading routine.
+
+36
+00:03:41,650 --> 00:03:46,962
+Your saved library stays on the device, and the app supports browsing it offline.
+
+37
+00:03:47,142 --> 00:03:50,449
+Discovery still needs a connection to Open Library.
+
+38
+00:03:50,629 --> 00:03:57,093
+An offline message makes that distinction clear, so you know what is available when connectivity changes.
+
+39
+00:03:58,650 --> 00:04:03,557
+Return to PageNest and your saved reading information is ready to continue.
+
+40
+00:04:03,737 --> 00:04:06,553
+Books, progress, notes, and goals stay together.
+
+41
+00:04:06,733 --> 00:04:12,791
+The Android app also includes reminders and sharing, depending on device permissions and support.
+
+42
+00:04:15,650 --> 00:04:17,485
+Discover something interesting.
+
+43
+00:04:17,665 --> 00:04:19,585
+Give it a place in your library.
+
+44
+00:04:19,765 --> 00:04:23,221
+Track the pages, save the thoughts, and celebrate the finish.
+
+45
+00:04:23,401 --> 00:04:28,243
+PageNest brings those small moments together into one personal reading journey.
+
+46
+00:04:28,423 --> 00:04:30,151
+What will your next chapter be?
