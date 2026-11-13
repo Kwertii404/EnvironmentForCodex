@@ -1,0 +1,5 @@
+id,date,source,problem,change,verification,status
+R01,2026-11-11,Browser smoke test,App stuck loading due to review-template parse error,Corrected template-string delimiter,Syntax check and all 13 browser checks passed,Implemented
+R04,2026-11-11,Guided demonstration,Registration tab remained active after sign-out,Reset auth mode to sign-in on logout,B13 regression check and guided demo passed,Implemented
+R02,2026-11-11,Evidence review,Parent test could be counted as an extra feature scenario,Saved TAP output and documented 20 child checks plus parent,20 named F01–F20 checks passed,Implemented
+R03,2026-11-11,Presentation review,Automated recording too fast for explanation,Separate guided recording with deliberate pauses,Guided MP4 decoded without errors; sampled caption frame inspected,Implemented

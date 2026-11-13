@@ -1,0 +1,25 @@
+01 / Sign in or create a resident account. Fictional demonstration data.
+02 / Create an account. No OTP verification is included in this MVP.
+03 / Resident dashboard: report a concern and view recent activity.
+04 / Required-field checks explain what needs to be corrected.
+05 / Add concern details and location. Photos and GPS are optional.
+06 / Review before submitting. Identity is withheld from the staff view.
+07 / Edit details without losing the report draft.
+08 / A saved report receives its own reference number.
+09 / The resident can see the initial Received status.
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('heading', { name: 'Report queue' }) to be visible[22m
+
+    at /tmp/barangay-demo.cjs:8:266 {
+  log: [
+    "  - waiting for getByRole('heading', { name: 'Report queue' }) to be visible"
+  ],
+  name: 'TimeoutError'
+}
+
+Node.js v24.19.0

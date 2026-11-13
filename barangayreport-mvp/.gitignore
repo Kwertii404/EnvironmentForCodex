@@ -1,0 +1,8 @@
+data/
+node_modules/
+.env
+*.log
+evidence/raw/
+evidence/raw-demo/
+__pycache__/
+!evidence/browser-run.log

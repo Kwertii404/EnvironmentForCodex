@@ -1,0 +1,17 @@
+{
+  "verifiedAt": "2026-11-11",
+  "api_checks_passed": 20,
+  "browser_checks_passed": 13,
+  "representative_user_sessions": 0,
+  "instructor_approval_received": false,
+  "guided_video_seconds": 74.633333,
+  "guided_video_width": 1280,
+  "guided_video_height": 980,
+  "video_decode_errors": 0,
+  "report_formats": [
+    "PDF",
+    "DOCX",
+    "Markdown"
+  ],
+  "application": "Local working MVP, not a public barangay service"
+}

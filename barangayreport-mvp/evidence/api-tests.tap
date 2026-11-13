@@ -1,0 +1,141 @@
+
+> barangayreport-mvp@0.1.0 test
+> node --test --test-reporter=tap test/api.test.mjs
+
+TAP version 13
+# Subtest: BarangayReport end-to-end API integration
+    # Subtest: F01: unauthenticated requests cannot list reports
+    ok 1 - F01: unauthenticated requests cannot list reports
+      ---
+      duration_ms: 6.142328
+      type: 'test'
+      ...
+    # Subtest: F02: account validation rejects incomplete registration
+    ok 2 - F02: account validation rejects incomplete registration
+      ---
+      duration_ms: 9.701635
+      type: 'test'
+      ...
+    # Subtest: F03: resident registration creates a session without leaking password
+    ok 3 - F03: resident registration creates a session without leaking password
+      ---
+      duration_ms: 90.521106
+      type: 'test'
+      ...
+    # Subtest: F04: duplicate accounts are rejected
+    ok 4 - F04: duplicate accounts are rejected
+      ---
+      duration_ms: 5.987956
+      type: 'test'
+      ...
+    # Subtest: F05: incorrect password does not authenticate
+    ok 5 - F05: incorrect password does not authenticate
+      ---
+      duration_ms: 55.8007
+      type: 'test'
+      ...
+    # Subtest: F06: category, description and location are validated on server
+    ok 6 - F06: category, description and location are validated on server
+      ---
+      duration_ms: 5.39571
+      type: 'test'
+      ...
+    # Subtest: F07: invalid GPS coordinates are rejected
+    ok 7 - F07: invalid GPS coordinates are rejected
+      ---
+      duration_ms: 4.976403
+      type: 'test'
+      ...
+    # Subtest: F08: non-image data cannot be uploaded as a photo
+    ok 8 - F08: non-image data cannot be uploaded as a photo
+      ---
+      duration_ms: 4.236129
+      type: 'test'
+      ...
+    # Subtest: F09: submission produces a reference and an initial timeline event
+    ok 9 - F09: submission produces a reference and an initial timeline event
+      ---
+      duration_ms: 4.412783
+      type: 'test'
+      ...
+    # Subtest: F10: retrying a submission does not create a duplicate
+    ok 10 - F10: retrying a submission does not create a duplicate
+      ---
+      duration_ms: 6.467402
+      type: 'test'
+      ...
+    # Subtest: F11: another resident cannot read a report or its photo
+    ok 11 - F11: another resident cannot read a report or its photo
+      ---
+      duration_ms: 108.286092
+      type: 'test'
+      ...
+    # Subtest: F12: residents cannot update status
+    ok 12 - F12: residents cannot update status
+      ---
+      duration_ms: 2.441236
+      type: 'test'
+      ...
+    # Subtest: F13: staff can sign in and anonymous identity is withheld
+    ok 13 - F13: staff can sign in and anonymous identity is withheld
+      ---
+      duration_ms: 57.40045
+      type: 'test'
+      ...
+    # Subtest: F14: staff update appears in resident timeline
+    ok 14 - F14: staff update appears in resident timeline
+      ---
+      duration_ms: 4.941203
+      type: 'test'
+      ...
+    # Subtest: F15: invalid and redundant status updates are rejected
+    ok 15 - F15: invalid and redundant status updates are rejected
+      ---
+      duration_ms: 6.857013
+      type: 'test'
+      ...
+    # Subtest: F16: resolved status preserves earlier history
+    ok 16 - F16: resolved status preserves earlier history
+      ---
+      duration_ms: 3.631407
+      type: 'test'
+      ...
+    # Subtest: F17: photo storage and authorized retrieval work
+    ok 17 - F17: photo storage and authorized retrieval work
+      ---
+      duration_ms: 8.624305
+      type: 'test'
+      ...
+    # Subtest: F18: cross-site mutation attempts are rejected
+    ok 18 - F18: cross-site mutation attempts are rejected
+      ---
+      duration_ms: 3.334859
+      type: 'test'
+      ...
+    # Subtest: F19: reports and history survive a server restart
+    ok 19 - F19: reports and history survive a server restart
+      ---
+      duration_ms: 132.589312
+      type: 'test'
+      ...
+    # Subtest: F20: logout invalidates the server session
+    ok 20 - F20: logout invalidates the server session
+      ---
+      duration_ms: 5.907387
+      type: 'test'
+      ...
+    1..20
+ok 1 - BarangayReport end-to-end API integration
+  ---
+  duration_ms: 832.908689
+  type: 'test'
+  ...
+1..1
+# tests 21
+# suites 0
+# pass 21
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 918.149817

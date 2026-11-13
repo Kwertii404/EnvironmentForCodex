@@ -1,0 +1,59 @@
+1
+00:00:04,265 --> 00:00:08,933
+01 / Sign in or create a resident account. Fictional demonstration data.
+
+2
+00:00:08,933 --> 00:00:13,846
+02 / Create an account. No OTP verification is included in this MVP.
+
+3
+00:00:13,846 --> 00:00:18,580
+03 / Resident dashboard: report a concern and view recent activity.
+
+4
+00:00:18,580 --> 00:00:23,302
+04 / Required-field checks explain what needs to be corrected.
+
+5
+00:00:23,302 --> 00:00:27,871
+05 / Add concern details and location. Photos and GPS are optional.
+
+6
+00:00:27,871 --> 00:00:32,550
+06 / Review before submitting. Identity is withheld from the staff view.
+
+7
+00:00:32,550 --> 00:00:37,137
+07 / Edit details without losing the report draft.
+
+8
+00:00:37,137 --> 00:00:41,784
+08 / A saved report receives its own reference number.
+
+9
+00:00:41,784 --> 00:00:46,719
+09 / The resident can see the initial Received status.
+
+10
+00:00:46,719 --> 00:00:51,291
+10 / Staff sign in to a separate report-management workspace.
+
+11
+00:00:51,291 --> 00:00:55,955
+11 / Staff can read the concern; the anonymous reporter identity is hidden.
+
+12
+00:00:55,955 --> 00:01:00,565
+12 / Staff post an In progress update with a resident-visible note.
+
+13
+00:01:00,565 --> 00:01:05,509
+13 / Marking the concern Resolved keeps the earlier history.
+
+14
+00:01:05,509 --> 00:01:11,644
+14 / The resident sees the same status history after signing back in.
+
+15
+00:01:11,644 --> 00:01:14,640
+15 / Find a report by reference number and filter by status.

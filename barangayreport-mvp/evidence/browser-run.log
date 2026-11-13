@@ -1,0 +1,67 @@
+[
+  {
+    "id": "B01",
+    "result": "A resident can register through the interface and reach the dashboard.",
+    "status": "PASS"
+  },
+  {
+    "id": "B02",
+    "result": "Required fields show inline errors and the first invalid field receives focus.",
+    "status": "PASS"
+  },
+  {
+    "id": "B03",
+    "result": "Review-to-edit retains form data and shows the revised location.",
+    "status": "PASS"
+  },
+  {
+    "id": "B04",
+    "result": "Submission confirms a reference and opens the resident timeline.",
+    "status": "PASS"
+  },
+  {
+    "id": "B05",
+    "result": "Anonymous reporter name and mobile are hidden in staff detail.",
+    "status": "PASS"
+  },
+  {
+    "id": "B06",
+    "result": "A staff update appears on the resident timeline after refresh.",
+    "status": "PASS"
+  },
+  {
+    "id": "B07",
+    "result": "Resolution preserves all three timeline entries.",
+    "status": "PASS"
+  },
+  {
+    "id": "B08",
+    "result": "Search and status filters return the matching report or an empty state.",
+    "status": "PASS"
+  },
+  {
+    "id": "B09",
+    "result": "390px mobile detail layout has no horizontal overflow.",
+    "status": "PASS"
+  },
+  {
+    "id": "B10",
+    "result": "GPS denial leaves manual location entry available.",
+    "status": "PASS"
+  },
+  {
+    "id": "B11",
+    "result": "Network failure keeps the report draft available for correction and retry.",
+    "status": "PASS"
+  },
+  {
+    "id": "B12",
+    "result": "No uncaught browser JavaScript errors during the tested flow.",
+    "status": "PASS"
+  },
+  {
+    "id": "B13",
+    "result": "Sign-out returns to sign-in and permits resident-to-staff switching in the same browser.",
+    "status": "PASS"
+  }
+]

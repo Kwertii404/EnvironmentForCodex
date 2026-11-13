@@ -1,0 +1,24 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 980
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,24,&H00FFFFFF,&H00FFFFFF,&H0010263F,&H0010263F,0,0,0,0,100,100,0,0,1,0,0,2,35,35,22,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.26,0:00:08.93,Default,,0,0,0,,01 / Sign in or create a resident account. Fictional demonstration data.
+Dialogue: 0,0:00:08.93,0:00:13.85,Default,,0,0,0,,02 / Create an account. No OTP verification is included in this MVP.
+Dialogue: 0,0:00:13.85,0:00:18.58,Default,,0,0,0,,03 / Resident dashboard: report a concern and view recent activity.
+Dialogue: 0,0:00:18.58,0:00:23.30,Default,,0,0,0,,04 / Required-field checks explain what needs to be corrected.
+Dialogue: 0,0:00:23.30,0:00:27.87,Default,,0,0,0,,05 / Add concern details and location. Photos and GPS are optional.
+Dialogue: 0,0:00:27.87,0:00:32.55,Default,,0,0,0,,06 / Review before submitting. Identity is withheld from the staff view.
+Dialogue: 0,0:00:32.55,0:00:37.14,Default,,0,0,0,,07 / Edit details without losing the report draft.
+Dialogue: 0,0:00:37.14,0:00:41.78,Default,,0,0,0,,08 / A saved report receives its own reference number.
+Dialogue: 0,0:00:41.78,0:00:46.72,Default,,0,0,0,,09 / The resident can see the initial Received status.
+Dialogue: 0,0:00:46.72,0:00:51.29,Default,,0,0,0,,10 / Staff sign in to a separate report-management workspace.
+Dialogue: 0,0:00:51.29,0:00:55.96,Default,,0,0,0,,11 / Staff can read the concern; the anonymous reporter identity is hidden.
+Dialogue: 0,0:00:55.96,0:01:00.56,Default,,0,0,0,,12 / Staff post an In progress update with a resident-visible note.
+Dialogue: 0,0:01:00.56,0:01:05.51,Default,,0,0,0,,13 / Marking the concern Resolved keeps the earlier history.
+Dialogue: 0,0:01:05.51,0:01:11.64,Default,,0,0,0,,14 / The resident sees the same status history after signing back in.
+Dialogue: 0,0:01:11.64,0:01:14.64,Default,,0,0,0,,15 / Find a report by reference number and filter by status.

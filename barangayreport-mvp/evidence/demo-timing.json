@@ -1,0 +1,66 @@
+{
+  "stages": [
+    {
+      "at": 4.265,
+      "text": "01 / Sign in or create a resident account. Fictional demonstration data."
+    },
+    {
+      "at": 8.933,
+      "text": "02 / Create an account. No OTP verification is included in this MVP."
+    },
+    {
+      "at": 13.846,
+      "text": "03 / Resident dashboard: report a concern and view recent activity."
+    },
+    {
+      "at": 18.58,
+      "text": "04 / Required-field checks explain what needs to be corrected."
+    },
+    {
+      "at": 23.302,
+      "text": "05 / Add concern details and location. Photos and GPS are optional."
+    },
+    {
+      "at": 27.871,
+      "text": "06 / Review before submitting. Identity is withheld from the staff view."
+    },
+    {
+      "at": 32.55,
+      "text": "07 / Edit details without losing the report draft."
+    },
+    {
+      "at": 37.137,
+      "text": "08 / A saved report receives its own reference number."
+    },
+    {
+      "at": 41.784,
+      "text": "09 / The resident can see the initial Received status."
+    },
+    {
+      "at": 46.719,
+      "text": "10 / Staff sign in to a separate report-management workspace."
+    },
+    {
+      "at": 51.291,
+      "text": "11 / Staff can read the concern; the anonymous reporter identity is hidden."
+    },
+    {
+      "at": 55.955,
+      "text": "12 / Staff post an In progress update with a resident-visible note."
+    },
+    {
+      "at": 60.565,
+      "text": "13 / Marking the concern Resolved keeps the earlier history."
+    },
+    {
+      "at": 65.509,
+      "text": "14 / The resident sees the same status history after signing back in."
+    },
+    {
+      "at": 71.644,
+      "text": "15 / Find a report by reference number and filter by status."
+    }
+  ],
+  "sourceRecording": "page@35910284d024e743ea12bcd077994a9b.webm",
+  "recording": "BarangayReport-Guided-Walkthrough.mp4"
+}

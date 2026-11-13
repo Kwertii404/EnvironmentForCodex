@@ -1,0 +1,34 @@
+test_id,test_description,result,evidence
+F01,unauthenticated requests cannot list reports,PASS,evidence/api-tests.tap
+F02,account validation rejects incomplete registration,PASS,evidence/api-tests.tap
+F03,resident registration creates a session without leaking password,PASS,evidence/api-tests.tap
+F04,duplicate accounts are rejected,PASS,evidence/api-tests.tap
+F05,incorrect password does not authenticate,PASS,evidence/api-tests.tap
+F06,"category, description and location are validated on server",PASS,evidence/api-tests.tap
+F07,invalid GPS coordinates are rejected,PASS,evidence/api-tests.tap
+F08,non-image data cannot be uploaded as a photo,PASS,evidence/api-tests.tap
+F09,submission produces a reference and an initial timeline event,PASS,evidence/api-tests.tap
+F10,retrying a submission does not create a duplicate,PASS,evidence/api-tests.tap
+F11,another resident cannot read a report or its photo,PASS,evidence/api-tests.tap
+F12,residents cannot update status,PASS,evidence/api-tests.tap
+F13,staff can sign in and anonymous identity is withheld,PASS,evidence/api-tests.tap
+F14,staff update appears in resident timeline,PASS,evidence/api-tests.tap
+F15,invalid and redundant status updates are rejected,PASS,evidence/api-tests.tap
+F16,resolved status preserves earlier history,PASS,evidence/api-tests.tap
+F17,photo storage and authorized retrieval work,PASS,evidence/api-tests.tap
+F18,cross-site mutation attempts are rejected,PASS,evidence/api-tests.tap
+F19,reports and history survive a server restart,PASS,evidence/api-tests.tap
+F20,logout invalidates the server session,PASS,evidence/api-tests.tap
+B01,A resident can register through the interface and reach the dashboard.,PASS,evidence/browser-results.json
+B02,Required fields show inline errors and the first invalid field receives focus.,PASS,evidence/browser-results.json
+B03,Review-to-edit retains form data and shows the revised location.,PASS,evidence/browser-results.json
+B04,Submission confirms a reference and opens the resident timeline.,PASS,evidence/browser-results.json
+B05,Anonymous reporter name and mobile are hidden in staff detail.,PASS,evidence/browser-results.json
+B06,A staff update appears on the resident timeline after refresh.,PASS,evidence/browser-results.json
+B07,Resolution preserves all three timeline entries.,PASS,evidence/browser-results.json
+B08,Search and status filters return the matching report or an empty state.,PASS,evidence/browser-results.json
+B09,390px mobile detail layout has no horizontal overflow.,PASS,evidence/browser-results.json
+B10,GPS denial leaves manual location entry available.,PASS,evidence/browser-results.json
+B11,Network failure keeps the report draft available for correction and retry.,PASS,evidence/browser-results.json
+B12,No uncaught browser JavaScript errors during the tested flow.,PASS,evidence/browser-results.json
+B13,Sign-out returns to sign-in and permits resident-to-staff switching in the same browser.,PASS,evidence/browser-results.json

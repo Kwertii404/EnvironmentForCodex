@@ -1,0 +1,10 @@
+locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('heading', { name: 'Welcome back' }) to be visible[22m
+
+    at /workspace/EnvironmentForCodex/barangayreport-mvp/test/browser.cjs:7:96 {
+  log: [
+    "  - waiting for getByRole('heading', { name: 'Welcome back' }) to be visible"
+  ],
+  name: 'TimeoutError'
+}

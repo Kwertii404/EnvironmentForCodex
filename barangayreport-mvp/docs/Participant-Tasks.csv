@@ -1,0 +1,4 @@
+participant_code,representative_role,date,device_browser,task_id,completed_yes_no,time_seconds,errors_observed,assistance_needed,evidence_file
+P01,Resident / regular smartphone user,,,,,,,,
+P02,Resident / less digital experience,,,,,,,,
+P03,Barangay staff or approved representative,,,,,,,,
